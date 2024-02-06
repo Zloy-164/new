@@ -1,0 +1,182 @@
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("./fonts/Roboto-Regular.woff");
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto-Regular";
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+.header, .main-section {
+max-width: 1920px;
+padding: 0 20px;
+margin: 0 auto;  
+}
+
+.fixed-container {
+    padding: 0 20px;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.menu-container {
+    padding-top: 67px;
+    display: flex;
+    justify-content:space-between ;
+}
+
+
+.logo{
+padding-left: 47px;
+}
+
+.menu {
+   display: flex;
+}
+
+.header-menu {
+    padding-top: 6px;
+}
+
+nav ul li{
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+
+nav ul li a {
+    margin-left: 47px;
+    font-weight: 700;
+    color: #0fcaab;
+    letter-spacing: 0.1em;
+}
+
+nav ul li a:hover {color: #34547a;}
+
+.section-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 135px;
+}
+
+.laptop {
+    padding-left: 134px;
+    padding-top: 20px;
+}
+
+.caption {
+    font-size: 48px;
+    margin-bottom: 40px;
+
+}
+
+.description {
+    width: 580px;
+    margin-bottom: 50px;
+    line-height: 27px;
+}
+
+.button {
+    width: 225px;
+    height: 65px;
+    background-color: #8b00ff;
+    color: #f9f3f3;
+ font-size: 22px;
+ cursor: pointer;
+ border: pointer;
+}
+ 
+.button:hover {background-color: #34547a;}
+
+.burger-icon{
+    display: none;
+    margin-top: 5px;
+}
+
+.burger-icon span{
+    display: block;
+    height: 7px;
+    width: 45px;
+    background-color: #000;
+}
+.burger-icon span:nth-child(2) {margin: 6px 0;}
+
+
+@media (max-width: 1250px) {
+
+    .description {
+        width: 100%;
+        margin-bottom: 50px; 
+    }
+    
+
+ .right-part {
+    padding-left: 50px;
+ }
+}
+@media (max-width: 925px) {
+    
+    .logo{padding-left: 47px;}
+
+    .logo img {width: 50px;}
+ 
+ .header-menu {
+    display: none;
+ }
+ .burger-icon {
+    display:block;
+    height: 2px;
+    width: 24px;
+
+ } 
+.burger-icon span {
+    height: 2px;
+    width: 24px;
+
+ }
+
+
+ .section-container {
+    display: block;
+    padding-top: 40px;
+    padding-bottom: 30px;
+ }
+}
+ .laptop {
+    text-align: center;
+    padding-bottom: 40px;
+ }   
+
+.right-part {
+text-align:center;
+padding-left: 0;
+}
+
+@media (max-width: 400px) {
+
+ .laptop img{
+    width: 250px;
+    padding-bottom: 10px;
+   }
+
+
+  .caption {
+ font-size: 30px;
+ }
+
+ .description {font-size: 14px;}
+
+ .section-container {
+ padding-top: 10px;
+ padding-bottom: 5px;
+ }
+  .menu-container{
+   padding-top: 10px;
+  }
+}
+
