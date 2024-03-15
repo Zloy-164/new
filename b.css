@@ -1,0 +1,39 @@
+.social-icons-5 {
+  list-style: none;
+  margin: 10px;
+  padding: 0;
+  display: flex;
+  justify-content: left;      
+}
+.social-icons-5 a {
+  text-decoration: none;
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin: 0 6px;
+  font-size: 26px;
+  background: #337AB7;
+  transition: border-top-left-radius 0.1s linear 0s, border-top-right-radius 0.1s linear 0.1s, border-bottom-right-radius 0.1s linear 0.2s, border-bottom-left-radius 0.1s linear 0.3s;
+  transition: transform 0.4s linear 0s, border-top-left-radius 0.1s linear 0s, border-top-right-radius 0.1s linear 0.1s, border-bottom-right-radius 0.1s linear 0.2s, border-bottom-left-radius 0.1s linear 0.3s;
+  transition: transform 0.4s linear 0s, border-top-left-radius 0.1s linear 0s, border-top-right-radius 0.1s linear 0.1s, border-bottom-right-radius 0.1s linear 0.2s, border-bottom-left-radius 0.1s linear 0.3s;
+}
+.social-icons-5 a img {
+  width: 26px;
+  height: 26px;
+}
+.social-icons-5 a i,
+.social-icons-5 a img {
+  transition: transform 0.4s linear 0s;
+}
+.social-icons-5 a:hover {
+  transform: rotate(360deg);
+  border-radius: 50%;
+}
+.social-icons-5 a:hover i,
+.social-icons-5 a:hover img {
+  transform: rotate(-360deg);
+}
